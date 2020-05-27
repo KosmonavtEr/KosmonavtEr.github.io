@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+}
+
+.contHead{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 5px;
+}
+
+.cont{
+    width: 80%;
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contCont{
+    padding: 5px;
+    padding-top: 120px;
+    width: 80%;    
+    margin: 0 auto;
+}
+
+.menu{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin-left: 15px;
+}
+
+.mainBlock{
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+    /* background-color: #7eb8da; */
+    /* background-image: url(../img/mainImg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat; */
+}
+
+.mainCont{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.litPortCont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.litPortCont2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 30vw;
+}
+
+.image{
+    background-image: url(../img/ava.jpg);
+    width: 400px;
+    height: 500px;
+    background-position: center;
+    background-size: 100%;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.hallo_text{
+    font-size: 15pt;
+}
+
+.textCont{
+    padding-right: 10px;    
+}
+
+.lastWork{
+    width: 30vw;
+    height: 25vw;
+    background-color: white;
+    background-image: url(../img/ChayKawaPort.png);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.ChayKawa{
+    background-image: url(../img/ChayKawaPort.png);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ml10{
+    margin-left: 10px;
+    
+}
+
+.mr10{
+    margin-right: 10px;    
+}
+
+.link{
+    padding: 3px;
+}
+
+.link:hover{
+    background-color: #7eb8da;
+    color: white;
+    border-radius: 3px;
+    transition-duration: 0.3s;
+    
+}
+
+.rightBlock{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 30pt;
+    background-image: url(../img/background1.jpg);   
+    background-size: 150%;
+    border-image-outset: 0;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.leftBlock{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 30pt;
+    background-image: url(../img/backround2.jpg);
+    background-size: 133.4%;
+    border-image-outset: 0;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.rightBlock:hover ~ .leftBlock{
+    filter: blur(1px);
+    z-index: -10;
+}
+
+.leftBlock:hover ~ .rightBlock{
+    filter: blur(1px);
+    z-index: -10;
+}
+
+
+
+.pb {
+    width: 400px;
+    background-color: grey;
+    height: 30px;
+    margin: 20px;
+    margin-left: 10%;
+    border-radius: 3px;
+  }
+  
+.b {
+    width: 1%;
+    height: 30px;
+    background-color: #7eb8da;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.h2_main{
+    background-color: #7eb8da;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.insta_link{
+    width: 30px;
+    height: 30px;
+    margin: 10px;   
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ContentMe{
+    font-size: 15pt;    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    color: white;
+}
+
+.ava{
+    width: 20vw;
+    height: 25vw;
+}
+
+.BackgroundContMe{
+    background-color: #9579d1;
+    height: 75vh;
+}
+
+.ContPort{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: white;
+    padding-top: 120px;
+    grid-gap: 20px;
+    grid-template-areas: "one two three"
+                         "four five six"
+                         "seven eight nine";
+}
+
+.MyWork1{
+    grid-area: one;
+}
+
+.MyWork2{
+    grid-area: two;
+}
+
+.MyWork2{
+    grid-area: three;
+}
+
+.MyWork4{
+    grid-area: four;
+}
+
+.MyWork5{
+    grid-area: five;
+}
+
+.MyWork6{
+    grid-area: six;
+}
+
+.MyWork7{
+    grid-area: seven;
+}
+
+.MyWork8{
+    grid-area: eight;
+}
+
+.MyWork9{
+    grid-area: nine;
+}
+
+.Works{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    background-image: url(../img/ChayKawaPort.png);
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.BackColor{
+    background-color: #9579d1;
+    height: 90vh;
+    color: white;
+    font-size: 20pt;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.inst{
+    display: flex;
+}
+
+.contB{
+    display: flex;
+    align-items: center;
+}
